@@ -28,19 +28,23 @@
   padding-bottom: 0;
 }
 
-.topB {
-  //margin: 10px 0 10px 0;
+p {
   margin: 0;
-}
-
-.main-image {
-  height: 90vh;
-  //background-color: red;
-  background-image: url('images/IMG_4901.JPG');
-  background-size: contain;
-  background-repeat: no-repeat;
 }
 
 .ehsStrip {
   margin-bottom: 0;
+  border-radius: 0;
 }
+
+.main-image {
+  height: 85vh;
+  //background-color: red;
+  background-image: url('images/IMG_4901.JPG');
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  font-size: 1.5em;
+  border-radius: 0;
+}
+

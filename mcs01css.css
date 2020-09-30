@@ -53,3 +53,8 @@ p {
   text-align: center;
 }
 
+.quote {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+

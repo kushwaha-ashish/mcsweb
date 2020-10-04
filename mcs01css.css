@@ -58,3 +58,11 @@ p {
   padding-bottom: 0;
 }
 
+.contactIcons {
+  color: inherit;
+}
+
+.contactIcons:hover {
+  color: dark-blue;
+  text-decoration: underline dotted;
+}

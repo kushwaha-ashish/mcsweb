@@ -1,3 +1,4 @@
+/*
 .offcanvas-header{ display:none; }
 
 @media (max-width: 992px) {
@@ -12,14 +13,16 @@
     padding-left: 1rem;
     overflow-y: auto;
     visibility: hidden;
-    background-color: black;
+    background-color: white;
     transition: visibility .2s ease-in-out, -webkit-transform .2s ease-in-out;
   }
+
   .navbar-collapse.show {
     visibility: visible;
     transform: translateX(-100%);
+    z-index: 10;
   }
-}
+}*/
 
 #logo {
   height: 70px;
@@ -59,10 +62,14 @@ p {
 }
 
 .contactIcons {
-  color: inherit;
+  color: black;
 }
 
 .contactIcons:hover {
   color: dark-blue;
   text-decoration: underline dotted;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: black;
 }

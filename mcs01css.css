@@ -1,3 +1,18 @@
+@media only screen and (max-width: 992px) {
+  .main-image {
+    background-image: url('images/IMG_4901a.JPG');
+  }
+
+}
+
+@media only screen and (min-width: 993px) {
+  .main-image {
+    background-image: url('images/IMG_4901.JPG');
+  }
+}
+
+
+
 /*
 .offcanvas-header{ display:none; }
 
@@ -43,7 +58,7 @@ p {
 .main-image {
   height: 85vh;
   //background-color: red;
-  background-image: url('images/IMG_4901.JPG');
+  //background-image: url('images/IMG_4901.JPG');
   background-size: cover;
   background-repeat: no-repeat;
   color: white;

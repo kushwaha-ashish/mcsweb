@@ -9,6 +9,10 @@
   .main-image {
     background-image: url('images/IMG_4901.JPG');
   }
+
+  #logo {
+    padding-left: 50px;
+  }
 }
 
 
@@ -41,7 +45,7 @@
 
 #logo {
   height: 70px;
-  padding-left: 50px;
+  //padding-left: 50px;
   padding-top: 0;
   padding-bottom: 0;
 }

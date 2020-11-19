@@ -1,6 +1,6 @@
 @media only screen and (max-width: 992px) {
   .main-image {
-    background-image: url('images/IMG_4901a.JPG');
+    background-image: url('images/cover_pic_sm.jpg');
   }
 
   #logo {
@@ -11,7 +11,7 @@
 
 @media only screen and (min-width: 993px) {
   .main-image {
-    background-image: url('images/IMG_4901.JPG');
+    background-image: url('images/cover_pic.jpg');
   }
 
   #logo {

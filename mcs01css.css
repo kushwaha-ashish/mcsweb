@@ -1,6 +1,7 @@
 @media only screen and (max-width: 992px) {
   .main-image {
     background-image: url('images/cover_pic_sm.jpg');
+    height: 75vh;
   }
 
   #logo {
@@ -12,6 +13,7 @@
 @media only screen and (min-width: 993px) {
   .main-image {
     background-image: url('images/cover_pic.jpg');
+    height: 85vh;
   }
 
   #logo {
@@ -64,9 +66,6 @@ p {
 }
 
 .main-image {
-  height: 85vh;
-  //background-color: red;
-  //background-image: url('images/IMG_4901.JPG');
   background-size: cover;
   background-repeat: no-repeat;
   color: white;

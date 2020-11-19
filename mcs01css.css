@@ -1,7 +1,7 @@
 @media only screen and (max-width: 992px) {
   .main-image {
     background-image: url('images/cover_pic_sm.jpg');
-    height: 75vh;
+    height: 60vh;
   }
 
   #logo {

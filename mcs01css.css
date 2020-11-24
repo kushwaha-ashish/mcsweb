@@ -8,6 +8,17 @@
     padding-left: 0px;
   }
 
+  #vision_pic {
+    background-image: 
+    linear-gradient(to bottom, rgba(255, 0, 0, 0) 0 40%, rgb(233,236,239, 0.2), rgb(233,236,239, 1.0)),
+    url('images/pic11_vision_sm.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  .picCaption {
+    padding: 0 10vh 10vh 10vh;
+  }
 }
 
 @media only screen and (min-width: 993px) {
@@ -18,6 +29,20 @@
 
   #logo {
     padding-left: 50px;
+  }
+
+  #vision_pic {
+    background-image: 
+    linear-gradient(to right, rgba(255, 0, 0, 0) 0 40%, rgb(233,236,239, 0.2), rgb(233,236,239, 1.0)),
+    url('images/pic11_vision.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .picCaption {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-right: 10%;
   }
 }
 
@@ -94,4 +119,11 @@ p {
 
 .navbar-light .navbar-nav .nav-link {
   color: black;
+}
+
+
+#vision_pic {
+  background-image:
+  
+  
 }

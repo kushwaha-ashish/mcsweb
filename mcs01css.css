@@ -52,8 +52,8 @@
   }
 
   #mission_pic {
-    background-image: 
-    linear-gradient(to right, rgba(255, 0, 0, 0) 0 40%, rgb(233,236,239, 0.2), rgb(233,236,239, 1.0)),
+    background-image:
+    linear-gradient(to right, rgba(255, 0, 0, 0) 0 40%, rgba(233,236,239, 0.2), rgba(233,236,239, 1.0)),
     url('images/pic11_mission.jpg');
     background-size: contain;
     background-repeat: no-repeat;
@@ -167,14 +167,65 @@ p {
   color: black;
 }
 
-/*.scheduleDiv {
+/*#scheduleDiv {
   background-image: url(images/schedule.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-}*/
+}
 
-/*.mealsDiv {
+#mealsDiv {
   background-image: url(images/meals.jpg);
   background-size: cover;
   background-repeat: no-repeat; 
 }*/
+
+#hoursPic {
+  background-image: url(images/hours.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#hoursDiv {
+  padding-top: 4vh;
+  padding-bottom: 5vh;
+}
+
+#aboutM {
+  background-image: 
+  linear-gradient(to right, rgba(255, 0, 0, 0) 0 40%, rgba(233,236,239, 0.2), rgba(233,236,239, 1.0)),
+  url(images/aboutMont.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#montEnv {
+  background-image: 
+  linear-gradient(to right, rgba(255, 0, 0, 0) 0 40%, rgba(233,236,239, 0.2), rgba(233,236,239, 1.0)),
+  url(images/montEnv.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#individualTask {
+  background-image: 
+  linear-gradient(to right, rgba(255, 0, 0, 0) 0 40%, rgba(233,236,239, 0.2), rgba(233,236,239, 1.0)),
+  url(images/individualTask.jpg);
+  background-size: cover;
+  background-repeat: no-repeat; 
+}
+
+#curriculum {
+  background-image: 
+  linear-gradient(to right, rgba(255, 0, 0, 0) 0 40%, rgba(233,236,239, 0.2), rgba(233,236,239, 1.0)),
+  url(images/montCurric.jpg);
+  background-size: contain;
+  background-repeat: no-repeat; 
+}
+
+#outdoorPic {
+  background-image: 
+  linear-gradient(to right, rgba(255, 0, 0, 0) 0 40%, rgba(233,236,239, 0.2), rgba(233,236,239, 1.0)),
+  url(images/outdoors.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;  
+}

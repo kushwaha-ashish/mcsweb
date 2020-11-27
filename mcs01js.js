@@ -1,3 +1,8 @@
+$('.carousel').carousel({
+  interval: 2500,
+  pause: false
+});
+
 var mission_div = document.getElementById('mission_pic');
 var vision_div = document.getElementById('vision_pic');
 var goals_div = document.getElementById('goals_pic');
@@ -33,8 +38,6 @@ function setpic_height() {
 
 window.onload = setpic_height();
 window.addEventListener('resize', setpic_height);
-
-
 
 
 /*

@@ -36,6 +36,11 @@
   .picCaptionL, .picCaptionR {
     padding-top: 0;
   }
+
+  .carousel-item > img {
+    min-height: 80vh;
+    object-fit: cover;
+  }
 }
 
 

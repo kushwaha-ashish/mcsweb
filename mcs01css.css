@@ -234,3 +234,33 @@ p {
   background-size: cover;
   background-repeat: no-repeat;  
 }
+
+#practicalDetail {
+  background-image: url(images/curric01_practical.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;   
+}
+
+#sensorialDetail {
+  background-image: url(images/curric02_sensorial.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;   
+}
+
+#languageDetail {
+  background-image: url(images/curric03_language.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;   
+}
+
+#mathDetail {
+  background-image: url(images/curric04_math.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;   
+}
+
+#artDetail {
+  background-image: url(images/curric05_art.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;   
+}

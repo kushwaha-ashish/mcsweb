@@ -264,3 +264,19 @@ p {
   background-size: contain;
   background-repeat: no-repeat;   
 }
+
+#scienceDetail {
+  background-image: url(images/curric06_science.jpg);
+  width: 100%;
+  padding-top: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;   
+}
+
+#graceDetail {
+  background-image: url(images/curric07_grace.jpg);
+  width: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;   
+}
+
